@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kelly+Slab&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kelly+Slab&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Flat&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+}
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+.container{
+  max-height: 60rem;
+  margin: .8rem;
+  padding-bottom: .5rem;
+  background-color: white;
+  border-radius: 1rem;
+  /* min-width: 30rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 10rem; */
+}
+.image img{
+  
+  /* max-height: 19em; */
+  /* padding:0;
+  margin: 0; */
+  border-radius: 0px 10px;
+  min-width: 12rem;
+  width: 100%;
+  height: auto;
+}
+.texts{
+  padding: 2rem;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+ .p1{
+  /* padding: 10px auto 20px auto; */
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-weight: 500px;
+}
+.p2{
+  /* text-align: left;
+  padding: 20px; */
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}
+.p3{
+  /* padding: 22px; */
+  /* padding-right: 0;
+  margin-right: 0; */
+  line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.num1{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: 170%;
+  margin-right: 1rem;
+  
+}
+.num2{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', sans-serif;
+  font-size: 75%;
+  /* margin-bottom: 100px; */
+}
+.lastDiv{
+  text-align: center;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  margin: 2rem;
+  padding: .7rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.icon{
+  background-color: hsl(158, 36%, 37%);
+}
+.nums{
+  display: grid;
+  grid-template-columns: .4fr .2fr;
+}
